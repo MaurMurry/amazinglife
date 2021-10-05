@@ -1,0 +1,14 @@
+.button {
+  border-width: 1.87px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+
+  font-size: 18px;
+  color: rgb(249, 249, 249);
+  line-height: 3;
+  text-align: center;
+  padding: 0px 5px;
+}

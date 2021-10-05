@@ -1,0 +1,364 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #282b2f;
+  font-family: FiraSans;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: FiraSans;
+  src: url(../FONTS/FiraSans-Light.ttf);
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: bold;
+  src: url(../FONTS/FiraSans-Bold.ttf);
+}
+
+.header__logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 13.125%;
+  top: 90px;
+  background: black;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.header__text-title {
+  position: absolute;
+  font-size: 72px;
+  color: rgb(0, 0, 0);
+  left: 13.125%;
+  top: 360px;
+}
+
+.header__text-description {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  left: 13.125%;
+  top: 550px;
+}
+
+.item-A-text__title {
+  position: absolute;
+  font-size: 24px;
+  color: #666666;
+  font-weight: bold;
+  margin-left: 6.25%;
+  margin-top: 110px;
+}
+
+.item-A-text__description {
+  font-size: 36px;
+  width: 36%;
+  color: rgb(102, 102, 102);
+  margin-left: 6.25%;
+  margin-top: 180px;
+  position: absolute;
+}
+
+.transform:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.instagram__text-title {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 125px;
+  left: 13.125%;
+}
+
+.instagram__text-description {
+  position: absolute;
+  font-size: 32px;
+  margin-top: 180px;
+  width: 400px;
+  left: 13.125%;
+  height: 150px;
+}
+
+.instagram_button {
+  width: 276.26px;
+  height: 52.26px;
+  border-radius: 26.13px;
+  left: 13.125%;
+  margin-top: 340px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.instagram_button:hover {
+  color: #3f729b;
+  background-color: #ffffff;
+}
+
+.ser_block {
+  width: 44%;
+  height: 66%;
+  background: #212227;
+}
+
+.ser__block-title {
+  position: absolute;
+  font-size: 24px;
+  color: #2ebd59;
+  font-weight: bold;
+  line-height: 1.333;
+  margin-top: 140px;
+  left: 28.75%;
+}
+
+.ser__block-untitle {
+  position: absolute;
+  font-size: 20px;
+  color: #2ebd59;
+  line-height: 1.333;
+  margin-top: 170px;
+  left: 28.75%;
+}
+
+.ser__block-text {
+  position: absolute;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 230px;
+  left: 28.75%;
+}
+
+.ser_button {
+  position: absolute;
+  border-width: 2px;
+  border-color: rgb(46, 189, 89);
+  border-style: solid;
+  width: 142px;
+  height: 45px;
+  border-radius: 86px;
+  left: 28.75%;
+  margin-top: 360px;
+  font-size: 16px;
+  color: rgb(46, 189, 89);
+  font-weight: bold;
+  line-height: 2.9;
+  padding-left: 30px;
+}
+.ser_button:hover {
+  color: #212227;
+  background-color: #2ebd59;
+}
+
+.spotify__text-title {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 140px;
+  left: 13.125%;
+}
+
+.spotify__text {
+  position: absolute;
+  font-size: 36px;
+  width: 30%;
+  margin-top: 210px;
+  left: 13.125%;
+}
+
+.spotify_button {
+  width: 280px;
+  margin-top: 380px;
+  left: 13.125%;
+  border-radius: 28px;
+
+  font-weight: bold;
+}
+.spotify_button:hover {
+  background-color: #282b2f;
+  color: #2ebd59;
+}
+
+.itunes__text-title {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 140px;
+  left: 54%;
+}
+
+.itunes__text {
+  position: absolute;
+  font-size: 36px;
+  width: 30%;
+  margin-top: 210px;
+  left: 54%;
+}
+
+.itunes_button {
+  width: 280px;
+  border-radius: 28px;
+  margin-top: 380px;
+  left: 54%;
+
+  font-weight: bold;
+}
+.itunes_button:hover {
+  background-color: #2ebd59;
+  color: #212227;
+}
+
+.footer__text-block {
+  width: 280px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 13.125%;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+  line-height: 1.5;
+}
+
+.footer__text-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer__contact-me {
+  width: 180px;
+  height: 150px;
+  justify-content: space-between;
+  margin-left: 38.125%;
+  margin-top: -480px;
+}
+
+.footer__follow-me {
+  width: 180px;
+  height: 150px;
+  justify-content: space-between;
+  margin-left: 38.125%;
+  margin-top: 75px;
+}
+
+.footer__text-social-link {
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+  font-weight: bold;
+  line-height: 1.714;
+  margin-top: 5px;
+}
+
+.footer__text-social-link i {
+  padding-right: 10px;
+}
+
+.footer__subscribe {
+  width: 480px;
+  height: 150px;
+  justify-content: space-between;
+  margin-left: 56.125%;
+  margin-top: -378px;
+}
+
+.subscribe__input-text {
+  width: 100%;
+  height: 60px;
+  background: #4d4e52;
+  border: none;
+  color: #7b7b7c;
+  padding-left: 40px;
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+  line-height: 1.5;
+}
+
+.footer__sponsor {
+  margin-left: 56.125%;
+  margin-top: 113px;
+}
+
+.sponsor__blocks {
+  display: inline-flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.sponsor__logo {
+  width: 80px;
+  height: 80px;
+  border: solid 1px white;
+  font-size: 14px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1220px) {
+  .item-A-text__description {
+    margin-top: 100px;
+  }
+  .item-A-text__title {
+    margin-top: 50px;
+  }
+  .instagram__text-title {
+    margin-top: 70px;
+    left: 8.125%;
+  }
+  .instagram__text-description {
+    font-size: 25px;
+    line-height: 1.6;
+    width: 32%;
+    margin-top: 125px;
+    left: 8.125%;
+  }
+  .instagram_button {
+    margin-top: 285px;
+    left: 8.125%;
+  }
+
+  .spotify__text-title {
+    left: 8.125%;
+    margin-top: 85px;
+  }
+  .spotify__text {
+    left: 8.125%;
+    margin-top: 155px;
+  }
+  .spotify_button {
+    left: 8.125%;
+  }
+
+  .itunes__text-title {
+    margin-top: 85px;
+  }
+  .itunes__text {
+    margin-top: 155px;
+  }
+
+  .footer__text-block {
+    margin-left: 8.125%;
+  }
+  .footer__subscribe {
+    width: 260px;
+    margin-left: 60.125%;
+  }
+  .footer__text-social-link i {
+    padding-top: 15px;
+  }
+  .footer__sponsor {
+    margin-left: 60.125%;
+  }
+}

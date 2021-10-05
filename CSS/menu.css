@@ -1,0 +1,134 @@
+.header__menu {
+  position: fixed;
+  top: 20px;
+  left: 86.5%;
+  width: 35px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1366eb;
+  text-align: center;
+  z-index: 1000;
+}
+.header__menu i {
+  font-size: 36px;
+  color: #1366eb;
+  text-align: center;
+}
+
+.header__close {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 81.5%;
+  width: 35px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.header__close i {
+  font-size: 40px;
+  color: rgb(173, 39, 39);
+  text-align: center;
+}
+
+.menu-panel {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  background-color: #3b8aca;
+  opacity: 0.6;
+  left: auto;
+  right: -0px;
+  z-index: 999;
+
+  animation-name: showMenu;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+}
+
+@keyframes showMenu {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+
+@keyframes hideMenu {
+  from {
+    width: 20%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.menu-panel > nav {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.menu-panel ul {
+  width: 100%;
+}
+.menu-panel li {
+  display: none;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.menu-panel a {
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .header__close {
+    left: 52.5%;
+  }
+  .header__close i {
+    font-size: 80px;
+  }
+  .header__menu {
+    left: 85%;
+    font-size: 22px;
+  }
+  .header__menu i {
+    font-size: 65px;
+  }
+  .menu-panel {
+    width: 50%;
+    max-height: 50%;
+    max-height: 80%;
+  }
+  .menu-panel li {
+    list-style: none;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .menu-panel ul {
+    width: 40%;
+  }
+
+  @keyframes showMenu {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%;
+    }
+  }
+
+  @keyframes hideMenu {
+    from {
+      width: 30%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+}
