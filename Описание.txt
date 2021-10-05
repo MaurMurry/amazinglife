@@ -1,9 +1,0 @@
-JS Libs: none;
-Flexbox: none;
-Grid: use;
-Naming: none;
-Template processor: none;
-Preprocessos CSS: none;
-Web-pack: none;
-Other Libs: Font Awesome;
-Adaptability:Dekstop, Table;
