@@ -6,7 +6,7 @@
 <p>The project was created from a PSD layout, taken in the public domain for educational and practical purposes. <br>
 Used for illustrative purposes only.
 </p>
-<h3>Цель</h3>
+<h3>Target</h3>
 <p>Gaining practical skills with a <b> grid layout</b>.
 </p>
 <h3>Technologies</h3>
